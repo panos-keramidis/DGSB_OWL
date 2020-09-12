@@ -276,7 +276,7 @@
     </Declaration>
     <SubClassOf>
         <Class IRI="#Areas"/>
-        <Class IRI="#Streams"/>
+        <Class IRI="#Domain_Structure"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Collectives"/>
