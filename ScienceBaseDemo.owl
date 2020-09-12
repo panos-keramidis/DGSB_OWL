@@ -1,0 +1,2118 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/panos/ontologies/2020/7/ScienceBaseDemo"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/panos/ontologies/2020/7/ScienceBaseDemo"
+     versionIRI="http://www.semanticweb.org/panos/ontologies/2020/7/ScienceBaseDemo">
+    <Prefix name="" IRI="http://www.semanticweb.org/panos/ontologies/2020/7/ScienceBaseDemo"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Areas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assessment_Tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Code_of_Ethics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collectives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neighboring_Domains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Problem_Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rationale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Research_Roadmap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rules_Theories_Laws"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sectors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solution_Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Streams"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Training_Curricula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verticals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solution_Methods_&amp;_Tools"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#applied_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#applies_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assisted_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assists"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#augmented_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#augments"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongs_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participates_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#strongly_involves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blockchain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Business_Process_Reengineering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Culture_and_Tourism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digital_Identity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digital_Public_Services"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digital_Security"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dynamic_Workflow_Automation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Education_and_Research"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Environment_and_Natural_Resources"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#External_Affairs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gov_3.0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Health"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intelligence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Internal_Affairs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#International"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Law_and_Justice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Linked_Data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Local"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metrics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mobile_applications"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#National"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Organisational_Interoperability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Public_Safety"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Service_API-fication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Service_Portals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Social_Media"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Text_Mining"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transportation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#e-Collaboration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#e-Participation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#e-Voting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eFinance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Economy_&amp;_Finance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Entrepreneurship_&amp;_Development"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Labor_&amp;_Social_Security"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Areas"/>
+        <Class IRI="#Streams"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collectives"/>
+        <Class IRI="#Domain_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Context"/>
+        <Class IRI="#Domain_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generations"/>
+        <Class IRI="#Domain_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sectors"/>
+        <Class IRI="#Domain_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Streams"/>
+        <Class IRI="#Domain_Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verticals"/>
+        <Class IRI="#Domain_Structure"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Blockchain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Business_Process_Reengineering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Culture_and_Tourism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Streams"/>
+        <NamedIndividual IRI="#Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collectives"/>
+        <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Digital_Public_Services"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Dynamic_Workflow_Automation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Education_and_Research"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Environment_and_Natural_Resources"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#External_Affairs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Generations"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Generations"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Generations"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Health"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Streams"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Streams"/>
+        <NamedIndividual IRI="#Intelligence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Internal_Affairs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Context"/>
+        <NamedIndividual IRI="#International"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Law_and_Justice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Context"/>
+        <NamedIndividual IRI="#Local"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Metrics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Context"/>
+        <NamedIndividual IRI="#National"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Organisational_Interoperability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Streams"/>
+        <NamedIndividual IRI="#People"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Streams"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Public_Safety"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collectives"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Collectives"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Social_Media"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Transportation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#e-Participation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#e-Voting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Verticals"/>
+        <NamedIndividual IRI="#eFinance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Economy_&amp;_Finance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Entrepreneurship_&amp;_Development"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sectors"/>
+        <NamedIndividual IRI="#Labor_&amp;_Social_Security"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Areas"/>
+        <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Verticals"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Verticals"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+        <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+        <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assists"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assists"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+        <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Blockchain"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Blockchain"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Blockchain"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Blockchain"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Blockchain"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Business_Process_Reengineering"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Business_Process_Reengineering"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Business_Process_Reengineering"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Social_Media"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Blockchain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Metrics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Data"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Digital_Public_Services"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Digital_Public_Services"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Digital_Public_Services"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Dynamic_Workflow_Automation"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Dynamic_Workflow_Automation"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Dynamic_Workflow_Automation"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Dynamic_Workflow_Automation"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+        <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+        <NamedIndividual IRI="#Business_Process_Reengineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+        <NamedIndividual IRI="#Digital_Public_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+        <NamedIndividual IRI="#Dynamic_Workflow_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+        <NamedIndividual IRI="#Organisational_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+        <NamedIndividual IRI="#Metrics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+        <NamedIndividual IRI="#Social_Media"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+        <NamedIndividual IRI="#e-Participation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+        <NamedIndividual IRI="#e-Voting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+        <NamedIndividual IRI="#Blockchain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+        <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#augmented_by"/>
+        <NamedIndividual IRI="#Health"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Blockchain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Dynamic_Workflow_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Social_Media"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#e-Participation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#e-Voting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Intelligence"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Intelligence"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Intelligence"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Intelligence"/>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Intelligence"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Intelligence"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Intelligence"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Intelligence"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Intelligence"/>
+        <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assists"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assists"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+        <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#augmented_by"/>
+        <NamedIndividual IRI="#Law_and_Justice"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+        <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+        <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Metrics"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Metrics"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Metrics"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assists"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assists"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+        <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Organisational_Interoperability"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Organisational_Interoperability"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Organisational_Interoperability"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#Social_Media"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#e-Participation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#e-Voting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#People"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Blockchain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Metrics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#e-Voting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Business_Process_Reengineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Digital_Public_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Dynamic_Workflow_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+        <NamedIndividual IRI="#Organisational_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+        <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+        <NamedIndividual IRI="#Business_Process_Reengineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+        <NamedIndividual IRI="#Digital_Public_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+        <NamedIndividual IRI="#Digital_Security"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+        <NamedIndividual IRI="#Dynamic_Workflow_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+        <NamedIndividual IRI="#Organisational_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assists"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assists"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Blockchain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Service_API-fication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applied_to"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Social_Media"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Social_Media"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Social_Media"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Social_Media"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+        <NamedIndividual IRI="#Service_Automation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies_to"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+        <NamedIndividual IRI="#Smart_Cities"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+        <NamedIndividual IRI="#Gov_1.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assists"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assists"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+        <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+        <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#e-Participation"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#e-Participation"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#e-Participation"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#e-Voting"/>
+        <NamedIndividual IRI="#Gov_2.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#e-Voting"/>
+        <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#e-Voting"/>
+        <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#e-Voting"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#augments"/>
+        <NamedIndividual IRI="#eFinance"/>
+        <NamedIndividual IRI="#Economy_&amp;_Finance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#augmented_by"/>
+        <NamedIndividual IRI="#Economy_&amp;_Finance"/>
+        <NamedIndividual IRI="#eFinance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+        <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+        <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongs_to"/>
+        <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
+        <NamedIndividual IRI="#Gov_3.0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#involves"/>
+        <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
+        <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
+        <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assisted_by"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assisted_by"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assisted_by"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assisted_by"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assisted_by"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#augments"/>
+        <NamedIndividual IRI="#eHealth_/Health_Informatics"/>
+        <NamedIndividual IRI="#Health"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assisted_by"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+        <NamedIndividual IRI="#Big_Data_Processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assisted_by"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assisted_by"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+        <NamedIndividual IRI="#Mobile_applications"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assisted_by"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+        <NamedIndividual IRI="#Service_Portals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#assisted_by"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#augments"/>
+        <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
+        <NamedIndividual IRI="#Law_and_Justice"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#applied_to"/>
+        <ObjectProperty IRI="#applies_to"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#assisted_by"/>
+        <ObjectProperty IRI="#assists"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#augmented_by"/>
+        <ObjectProperty IRI="#augments"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belongs_to"/>
+        <ObjectProperty IRI="#includes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#involves"/>
+        <ObjectProperty IRI="#participates_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#applied_to"/>
+        <Class IRI="#Collectives"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#applies_to"/>
+        <Class IRI="#Areas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#assisted_by"/>
+        <Class IRI="#Verticals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#assists"/>
+        <Class IRI="#Areas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#augmented_by"/>
+        <Class IRI="#Sectors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#augments"/>
+        <Class IRI="#Verticals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongs_to"/>
+        <Class IRI="#Areas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includes"/>
+        <Class IRI="#Generations"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#involves"/>
+        <Class IRI="#Areas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participates_in"/>
+        <Class IRI="#Streams"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <Class IRI="#Areas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <Class IRI="#Streams"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#applied_to"/>
+        <Class IRI="#Areas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#applies_to"/>
+        <Class IRI="#Collectives"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#assisted_by"/>
+        <Class IRI="#Areas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#assists"/>
+        <Class IRI="#Verticals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#augmented_by"/>
+        <Class IRI="#Verticals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#augments"/>
+        <Class IRI="#Sectors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongs_to"/>
+        <Class IRI="#Generations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includes"/>
+        <Class IRI="#Areas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#involves"/>
+        <Class IRI="#Streams"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participates_in"/>
+        <Class IRI="#Areas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#strongly_involves"/>
+        <Class IRI="#Streams"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#strongly_participates_in"/>
+        <Class IRI="#Areas"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Assessment_Tools</IRI>
+        <Literal>HOW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Assessment_Tools</IRI>
+        <Literal>assessment frameworks, assessment tools, KPI’s</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Code_of_Ethics</IRI>
+        <Literal>The correct application</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_Structure</IRI>
+        <Literal>WHAT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Domain_Structure</IRI>
+        <Literal>ontology of scientific areas, sub-areas, terms, sectors, etc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Neighboring_Domains</IRI>
+        <Literal>WHAT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Neighboring_Domains</IRI>
+        <Literal>domains, “points of connections”, structure, tools, methods, ideas, laws, etc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Problem_Space</IRI>
+        <Literal>HOW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Problem_Space</IRI>
+        <Literal>problem classifications, multidimensional vector definitions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rationale</IRI>
+        <Literal>Justifications on the need for a science base supported by evidence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rationale</IRI>
+        <Literal>WHY</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Research_Roadmap</IRI>
+        <Literal>WHAT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Research_Roadmap</IRI>
+        <Literal>new research directions, evolution scenarios</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rules_Theories_Laws</IRI>
+        <Literal>The big picture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Solution_Space</IRI>
+        <Literal>HOW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Solution_Space</IRI>
+        <Literal>solution paths, cases, knowledge base of successes and failures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Training_Curricula</IRI>
+        <Literal>WHAT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Training_Curricula</IRI>
+        <Literal>training programmes, training courses, material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Solution_Methods_&amp;_Tools</IRI>
+        <Literal>HOW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Solution_Methods_&amp;_Tools</IRI>
+        <Literal>frameworks, methodologies, toolsets, applications, algorithms</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
