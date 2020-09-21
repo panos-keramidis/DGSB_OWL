@@ -1085,6 +1085,16 @@
         <NamedIndividual IRI="#Intelligence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+        <NamedIndividual IRI="#Machine_Learning_and_Data_Mining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+        <NamedIndividual IRI="#Natural_Language_processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#applies_to"/>
         <NamedIndividual IRI="#Big_Data"/>
         <NamedIndividual IRI="#Data-driven_Entrepreneurship"/>
@@ -1175,6 +1185,16 @@
         <NamedIndividual IRI="#Data"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Big_Data"/>
+        <NamedIndividual IRI="#Machine_Learning_and_Data_Mining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Big_Data"/>
+        <NamedIndividual IRI="#Big_Data_Analytics_&amp;_Datafication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#applies_to"/>
         <NamedIndividual IRI="#Blockchain"/>
         <NamedIndividual IRI="#Smart_Cities"/>
@@ -1250,6 +1270,11 @@
         <NamedIndividual IRI="#Data"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Blockchain"/>
+        <NamedIndividual IRI="#Blockchain_and_Smart_Contracting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#focuses_on"/>
         <NamedIndividual IRI="#Blockchain_and_Smart_Contracting"/>
         <NamedIndividual IRI="#Blockchain"/>
@@ -1298,6 +1323,11 @@
         <ObjectProperty IRI="#strongly_involves"/>
         <NamedIndividual IRI="#Business_Process_Reengineering"/>
         <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Business_Process_Reengineering"/>
+        <NamedIndividual IRI="#Once_only_Principle"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#utilized_by"/>
@@ -1388,6 +1418,11 @@
         <ObjectProperty IRI="#strongly_involves"/>
         <NamedIndividual IRI="#Cloud_Infrastructures"/>
         <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Cloud_Infrastructures"/>
+        <NamedIndividual IRI="#Cloud_Computing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#directs"/>
@@ -1560,6 +1595,11 @@
         <NamedIndividual IRI="#Data"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Digital_Governance_Assessment_Methods"/>
+        <NamedIndividual IRI="#Standardization_&amp;_Interoperability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#focuses_on"/>
         <NamedIndividual IRI="#Digital_Government_Transformation"/>
         <NamedIndividual IRI="#Digital_Public_Services"/>
@@ -1665,6 +1705,11 @@
         <NamedIndividual IRI="#Infrastructure"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Digital_Identity"/>
+        <NamedIndividual IRI="#e-Identity_&amp;_e-Signature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#applies_to"/>
         <NamedIndividual IRI="#Digital_Public_Services"/>
         <NamedIndividual IRI="#Service_Automation"/>
@@ -1748,6 +1793,16 @@
         <ObjectProperty IRI="#strongly_involves"/>
         <NamedIndividual IRI="#Digital_Public_Services"/>
         <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Digital_Public_Services"/>
+        <NamedIndividual IRI="#Digital_Government_Transformation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Digital_Public_Services"/>
+        <NamedIndividual IRI="#Once_only_Principle"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#utilized_by"/>
@@ -1943,6 +1998,11 @@
         <ObjectProperty IRI="#strongly_involves"/>
         <NamedIndividual IRI="#Evidence-based_decision_making"/>
         <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Evidence-based_decision_making"/>
+        <NamedIndividual IRI="#Algorithmic_Government"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#directs"/>
@@ -2335,6 +2395,11 @@
         <NamedIndividual IRI="#Infrastructure"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
+        <NamedIndividual IRI="#Smart_City_Government_&amp;_IoT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#augmented_by"/>
         <NamedIndividual IRI="#Law_and_Justice"/>
         <NamedIndividual IRI="#eJustice_/Legal_Informatics"/>
@@ -2530,6 +2595,21 @@
         <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#focuses_on"/>
+        <NamedIndividual IRI="#Natural_Language_processing"/>
+        <NamedIndividual IRI="#Artificial_Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#focuses_on"/>
+        <NamedIndividual IRI="#Natural_Language_processing"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#focuses_on"/>
+        <NamedIndividual IRI="#Natural_Language_processing"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#directs"/>
         <NamedIndividual IRI="#Once_Only_Principle"/>
         <NamedIndividual IRI="#Business_Process_Reengineering"/>
@@ -2640,6 +2720,11 @@
         <NamedIndividual IRI="#Data"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Open_Governmental_Data"/>
+        <NamedIndividual IRI="#Open_Government_and_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#applies_to"/>
         <NamedIndividual IRI="#Organisational_Interoperability"/>
         <NamedIndividual IRI="#Service_Automation"/>
@@ -2678,6 +2763,11 @@
         <ObjectProperty IRI="#strongly_involves"/>
         <NamedIndividual IRI="#Organisational_Interoperability"/>
         <NamedIndividual IRI="#Process_Regulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Organisational_Interoperability"/>
+        <NamedIndividual IRI="#Standardization_&amp;_Interoperability"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#participates_in"/>
@@ -2840,6 +2930,11 @@
         <NamedIndividual IRI="#Gov_1.0"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#directed_by"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+        <NamedIndividual IRI="#Linked_Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#involves"/>
         <NamedIndividual IRI="#Semantic_Interoperability"/>
         <NamedIndividual IRI="#Process_Regulation"/>
@@ -2848,6 +2943,11 @@
         <ObjectProperty IRI="#strongly_involves"/>
         <NamedIndividual IRI="#Semantic_Interoperability"/>
         <NamedIndividual IRI="#Data"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Semantic_Interoperability"/>
+        <NamedIndividual IRI="#Standardization_&amp;_Interoperability"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#applies_to"/>
@@ -3140,6 +3240,11 @@
         <NamedIndividual IRI="#People"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Social_Media"/>
+        <NamedIndividual IRI="#Service_Co-creation_&amp;_Social_Media"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#applies_to"/>
         <NamedIndividual IRI="#Technical_Interoperability"/>
         <NamedIndividual IRI="#Service_Automation"/>
@@ -3178,6 +3283,11 @@
         <ObjectProperty IRI="#strongly_involves"/>
         <NamedIndividual IRI="#Technical_Interoperability"/>
         <NamedIndividual IRI="#Infrastructure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Technical_Interoperability"/>
+        <NamedIndividual IRI="#Standardization_&amp;_Interoperability"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#assists"/>
@@ -3233,6 +3343,16 @@
         <ObjectProperty IRI="#strongly_involves"/>
         <NamedIndividual IRI="#Text_Mining"/>
         <NamedIndividual IRI="#Intelligence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+        <NamedIndividual IRI="#Machine_Learning_and_Data_Mining"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Text_Mining"/>
+        <NamedIndividual IRI="#Natural_Language_processing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#belongs__to"/>
@@ -3305,6 +3425,11 @@
         <NamedIndividual IRI="#Infrastructure"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Visual_Analytics"/>
+        <NamedIndividual IRI="#Big_Data_Analytics_&amp;_Datafication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#belongs__to"/>
         <NamedIndividual IRI="#e-Collaboration"/>
         <NamedIndividual IRI="#01._Computer_Science_&amp;_Information_Systems_Technology"/>
@@ -3395,6 +3520,16 @@
         <NamedIndividual IRI="#People"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+        <NamedIndividual IRI="#E-Democracy_&amp;_E-participation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#e-Collaboration"/>
+        <NamedIndividual IRI="#Service_Co-creation_&amp;_Social_Media"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#belongs__to"/>
         <NamedIndividual IRI="#e-Participation"/>
         <NamedIndividual IRI="#01._Computer_Science_&amp;_Information_Systems_Technology"/>
@@ -3480,6 +3615,11 @@
         <NamedIndividual IRI="#People"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#e-Participation"/>
+        <NamedIndividual IRI="#E-Democracy_&amp;_E-participation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#belongs__to"/>
         <NamedIndividual IRI="#e-Voting"/>
         <NamedIndividual IRI="#01._Computer_Science_&amp;_Information_Systems_Technology"/>
@@ -3553,6 +3693,11 @@
         <ObjectProperty IRI="#strongly_involves"/>
         <NamedIndividual IRI="#e-Voting"/>
         <NamedIndividual IRI="#People"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#e-Voting"/>
+        <NamedIndividual IRI="#E-Democracy_&amp;_E-participation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#augments"/>
@@ -4530,6 +4675,16 @@
         <NamedIndividual IRI="#People"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Opinion_Mining_&amp;_Sentiment_Analysis"/>
+        <NamedIndividual IRI="#Natural_Language_processing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#focuses_on"/>
+        <NamedIndividual IRI="#Policy_Modelling_&amp;_Simulation"/>
+        <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#belongs__to"/>
         <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
         <NamedIndividual IRI="#01._Computer_Science_&amp;_Information_Systems_Technology"/>
@@ -4595,6 +4750,11 @@
         <NamedIndividual IRI="#Intelligence"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#utilized_by"/>
+        <NamedIndividual IRI="#Policy_modelling_&amp;_simulation"/>
+        <NamedIndividual IRI="#Policy_Modelling_&amp;_Simulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#focuses_on"/>
         <NamedIndividual IRI="#Service_Co-creation_&amp;_Social_Media"/>
         <NamedIndividual IRI="#Social_Media"/>
@@ -4603,6 +4763,11 @@
         <ObjectProperty IRI="#focuses_on"/>
         <NamedIndividual IRI="#Service_Co-creation_&amp;_Social_Media"/>
         <NamedIndividual IRI="#e-Collaboration"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#focuses_on"/>
+        <NamedIndividual IRI="#Smart_City_Government_&amp;_IoT"/>
+        <NamedIndividual IRI="#Internet_of_Things"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#focuses_on"/>
